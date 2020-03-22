@@ -26,6 +26,7 @@ Also, the main grape varieties for red wines are
 - Băbească Neagră,
 - Fetească Neagră,
 - Pinot Noir.
+- Vino
 
 Source:  [Wikipedia](https://en.wikipedia.org/wiki/Romanian_wine)
 </div>
