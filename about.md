@@ -31,6 +31,6 @@ Also, the main grape varieties for red wines are
 Source:  [Wikipedia](https://en.wikipedia.org/wiki/Romanian_wine)
 </div>
 <div class="img-right" markdown="1">
-![image of grapes](/assets/images/max-delsid-unsplash.jpg)
+![image of grapes]({{"/assets/images/max-delsid-unsplash.jpg" | relative_url }})
 </div>
 <div class="clearfix"></div>
