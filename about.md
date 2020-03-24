@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-permalink: /about/
+permalink: /about
 ---
 <div class="content-left" markdown="1">
 
