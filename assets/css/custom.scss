@@ -12,6 +12,15 @@ body {
   background-position: center center;
 }
 
+.wrapper {
+  width: 96%;
+  max-width: 1080px;
+}
+
+section {
+  width: auto;
+}
+
 footer {
   background-color: #EAEAEA
 }
@@ -25,7 +34,7 @@ footer {
 }
 
 .img-right {
-  @media all and (in-width: 960px) {
+  @media all and (min-width: 960px) {
     width: 30%;
     float: right;
   }
