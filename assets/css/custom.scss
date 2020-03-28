@@ -17,12 +17,27 @@ body {
   max-width: 1080px;
 }
 
+$logo_red: #915D71;
+$logo_yellow: #D1BC38;
+$logo_red_comp: #612940;
+
+#banner {
+  background-color: $logo_red;
+  border: $logo_red_comp;
+}
+
+#banner .button {
+  background-color: $logo_yellow;
+  border: $logo_yellow;;
+}
+
 section {
   width: auto;
 }
 
 footer {
-  background-color: #EAEAEA
+  background-color: #EAEAEA;
+  padding-left: 10px;
 }
 
 .content-left {
