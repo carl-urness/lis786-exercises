@@ -1,2 +1,6 @@
 title: Romanian Wine Grapes
 theme: jekyll-theme-leap-day
+collections:
+  wine_grapes:
+    output: true
+    layout: wine_grape

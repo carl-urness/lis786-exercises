@@ -1,0 +1,55 @@
+---
+title:  Ultimate Directory of Romanian Wines
+layout:  default
+---
+<p>List of Romanian wine grapes below:</p>
+  <div class="card card-nav-tabs card-plain">
+    <div class="card-header card-header-primay">
+      <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+      <div class="nav-tabs-navigation">
+        <div class="nav-tabs-wrapper">
+          <ul class="nav nav-tabs" data-tabs="tabs">
+            <li class="nav-item">
+              <a class="nav-link active show" href="#alpha" data-toggle="tab">Sort alphabetically</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#category" data-toggle="tab">Sort by category</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card-body ">
+      <div class="tab-content">
+        <div class="tab-pane active show" id="alpha">
+          {% for wine_grape in site.wine_grapes %}
+            <div class="wine-teaser clearfix">
+              <div class="img-left teaser-image">
+                <a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page"><img src="{{wine_grape.image | relative_url}}" alt="photo of {{ winge_grape.title }}" /></a>
+              <div class="teaser-content">
+                <h2><a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page">{{ wine_grape.title }}</a></h2>
+                <p>{{ wine_grape.content | truncate: 44, ',,,'}}</p>
+                <p><red>wine category: <em>{{wine_grape.category }}</em></red></p>
+                <p><a href="{{ wine_grape.source }}" target="_blank">Source</a></p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="tab-pane" id="category">
+          {% assign sorted_grapes = site.wine_grapes | sort: "category" %}
+          {% for wine_grape in sorted_grapes %}
+            <div class="wine-teaser clearfix">
+              <div class="img-left teaser-image">
+                <a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page"><img src="{{wine_grape.image | relative_url}}" alt="photo of {{ winge_grape.title }}" /></a>
+              <div class="teaser-content">
+                <h2><a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page">{{ wine_grape.title }}</a></h2>
+                <p>{{ wine_grape.content | truncate: 44, ',,,'}}</p>
+                <p><red>wine category: <em>{{wine_grape.category }}</em></red></p>
+                <p><a href="{{ wine_grape.source }}" target="_blank">Source</a></p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
