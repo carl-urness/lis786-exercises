@@ -24,12 +24,18 @@ $logo_red_comp: #612940;
 #banner {
   background-color: $logo_red;
   border: $logo_red_comp;
+  right: 0;
+  margin-right: 0;
 }
 
 #banner .button {
   background-color: $logo_yellow;
   border: $logo_yellow;;
 }
+
+//#banner #logo {
+  //background-image: url({{"/assets/images/logo.png" | relative_url }});
+//}
 
 section {
   width: auto;
@@ -40,11 +46,19 @@ footer {
   padding-left: 10px;
 }
 
+a {
+  color: #3A463F;
+}
+
+//.card {
+//  background: #F8DBDF;
+//}
+
 .content-left {
   @media all and (min-width: 960px){
     width: 70%;
     float: left;
-    padding-right: 30px;
+    padding-right: 20px;
   }
 }
 
@@ -70,17 +84,12 @@ section img {
   display: table;
 }
 
-.content-left {
-  @media all and (min-width: 960px) {
-    width: 66%;
-    float: left;
-    padding-right: 20px;
-  }
+.card .card-header {
+  background: linear-gradient(60deg,#687E71,#A1B4A9)
 }
 
 .img-left {
   @media all and (min-width: 960px) {
-    width: 33%;
     float: left;
   }
 }

@@ -2,6 +2,9 @@
 title: Fetească Albă
 source: https://vincarta.com/blog/romanian-wine-facts/
 category: white
+image: /assets/images/fa.jpg
+layout: page
+
 ---
 Makes dry, fresh, perfumed white wines. It has some body and can be barrel fermented for more complexity. Is a Romanian - Moldovan white grape variety, mainly cultivated in the regions of Moldova and Transylvania in Romania and Republic of Moldova, as well as in the Hungarian wine region of Eger.
 
