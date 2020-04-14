@@ -2,19 +2,16 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   {% include head.html %}
   <body>
-    <header>
+    <div id="page-header">
       <header>
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
-    </header>
       <div id="banner">
-        <!--<span id="logo"></span>-->
-
         <a href="{{'/' | relative_url }}" class="button"><strong>Directory of Romanian Wine Grapes</strong></a>
         <a href="{{'/about/' | relative_url }}" class="button"><strong>About</strong></a>
-      </div><!-- end banner -->
-
+      </div>
+    </div>
     <div class="wrapper">
       <nav>
         <ul></ul>
