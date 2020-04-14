@@ -21,11 +21,22 @@ $logo_red: #915D71;
 $logo_yellow: #D1BC38;
 $logo_red_comp: #612940;
 
+#page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+header {
+  position: static; // override theme css
+}
+
 #banner {
   background-color: $logo_red;
   border: $logo_red_comp;
-  right: 0;
-  margin-right: 0;
+  position: static; // override theme css
 }
 
 #banner .button {
