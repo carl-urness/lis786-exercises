@@ -50,10 +50,6 @@ a {
   color: #3A463F;
 }
 
-//.card {
-//  background: #F8DBDF;
-//}
-
 .content-left {
   @media all and (min-width: 960px){
     width: 70%;
@@ -88,6 +84,12 @@ section img {
   background: linear-gradient(60deg,#687E71,#A1B4A9)
 }
 
+.card-plain .card-body {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+}
+
 .img-left {
   @media all and (min-width: 960px) {
     float: left;
@@ -120,7 +122,7 @@ img {
       margin-bottom: 0;
     }
     p {
-      margin: .25em 0;
+      margin: .5em 2em .5em 3em;
     }
   }
 }
