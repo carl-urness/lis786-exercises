@@ -61,6 +61,14 @@ a {
   color: #3A463F;
 }
 
+p {
+  text-indent: 15px;
+}
+
+br {
+  text-indent: 15px;
+}
+
 .content-left {
   @media all and (min-width: 960px){
     width: 70%;
@@ -99,6 +107,10 @@ section img {
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 45px;
+}
+
+.card-nav-tabs .card-header {
+  margin-top: -11px!important;
 }
 
 .img-left {

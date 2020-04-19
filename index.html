@@ -1,8 +1,11 @@
 ---
-title:  Ultimate Directory of Romanian Wines
+title:  Directory of Romanian Wine Grapes
 layout:  default
 ---
-<p>List of Romanian wine grapes below:</p>
+<h2>List of Romanian Wine Grapes</h2>
+  <p>Wine grapes grown in Romania are of a high quality.
+  <br>Although these grapes are also grown in the surrounding countries of Hungary, Bulgaria and Moldova; the majority of the grapes are in Romania.
+  </p>
   <div class="card card-nav-tabs card-plain">
     <div class="card-header card-header-primay">
       <div class="nav-tabs-navigation">
@@ -28,7 +31,7 @@ layout:  default
                 <div class="teaser-content">
                   <h2><a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page">{{ wine_grape.title }}</a></h2>
                   <p>{{ wine_grape.content | truncate: 300, ',,,'}}</p>
-                  <h5><red>Wine Category: <em>{{wine_grape.category }}</em></red></h5>
+                  <h5><red>Wine Category: <em>{{ wine_grape.category }}</em></red></h5>
                   <h6><a href="{{ wine_grape.source }}" target="_blank">Source</a></h6>
                 </div>
               </div>
