@@ -3,9 +3,9 @@ layout: default
 ---
 <h1 class="page-title">{{ page.title }}</h1>
 {{ content }}
-<img src="{{wine_grape.image | relative_url}}" alt="photo of {{ wine_grape.title }}" />
+<img src="{{page.image | relative_url}}" alt="photo of {{ page.title }}" />
 <img src="https://maps.googleapis.com/maps/api/staticmap?center={{ page.location | url_encode }}
         &zoom=13&size=600x300
-        &maptype=roadmap
+        &maptype=satellite
         &markers={{ page.location | url_encode }}
-        &key=AIzaSyBS_PXPMYDtJ30LrA-qEe0erws7ZIHvGvM"/>
+        &key=AIzaSyCi-yz2py5r6VlVoFjnenizfSv_1iPU3JE"/>

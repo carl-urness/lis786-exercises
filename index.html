@@ -26,12 +26,12 @@ layout:  default
             <div class="wine-teaser clearfix">
               <div class="img-left teaser-image">
                 <a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page"><img src="{{wine_grape.image | relative_url}}" alt="photo of {{ winge_grape.title }}" /></a>
-                <div class="teaser-content">
-                  <h2><a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page">{{ wine_grape.title }}</a></h2>
-                  <p>{{ wine_grape.content | truncate: 300, ',,,'}}</p>
-                  <h5><red>Wine Category: <em>{{ wine_grape.category }}</em></red></h5>
-                  <h5><a href="{{ wine_grape.source }}" target="_blank">For source content click here</a></h5>
-                </div>
+              </div>
+              <div class="teaser-content">
+                <h2><a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page">{{ wine_grape.title }}</a></h2>
+                <p>{{ wine_grape.content | truncate: 300, ',,,'}}</p>
+                <h5><red>Wine Category: <em>{{ wine_grape.category }}</em></red></h5>
+                <h5><a href="{{ wine_grape.source }}" target="_blank">For source content click here</a></h5>
               </div>
             </div>
           {% endfor %}

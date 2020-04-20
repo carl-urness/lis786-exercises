@@ -4,7 +4,10 @@ source: https://vincarta.com/blog/romanian-wine-facts/
 category: White
 image: /assets/images/tr.jpg
 layout: page
+location: Moldova, Romania
 ---
 Băbească Neagră
 
-('frankincence grape') or Romanian Muscat – a small berried clone of the Muscat Blanc à Petit Grains, one of the oldest grape varieties in the world and the most exquisite of the Muscat grapes. It results in perfumed and aromatic white wines which are quite difficult to make as dry wines.
+Băbească Neagră is an eastern European dark-skinned wine grape planted extensively in Romania and, to a lesser extent, in Moldova. It has reputedly been grown in the region for 2000 years and is very popular with locals. Translated, Băbească Neagră means "black grandmother’s grape". Its relationship with Fetească Neagră ("black maiden’s grape") is probably only linguistic.
+
+Băbească Neagră produces light and fruity red wine, typically designed for early consumption. A handful of higher-quality versions of the grape are produced.

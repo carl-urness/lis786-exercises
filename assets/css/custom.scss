@@ -5,21 +5,23 @@ body {
   background-image: url({{"/assets/images/greek-vase.png" | relative_url }} );
 }
 
-.page-header {
-  background-color: transparent;
-  background-image: url({{"/assets/images/andres-siimon-900.jpg" | relative_url }});
-  background-size: cover;
-  background-position: center center;
-}
-
 .wrapper {
   width: 96%;
   max-width: 1080px;
 }
 
-$logo_red: #915D71;
-$logo_yellow: #D1BC38;
-$logo_red_comp: #612940;
+$logo_blue: #2D93AD;
+$logo_green: #88AB75;
+$logo_grey: #7D7C84;
+$logo_yellow: #DBD56E;
+$logo_orange: #DE8F6E;
+
+header {
+  background: $logo_blue;
+  background-size: cover;
+  background-position: center center;
+
+}
 
 //.logo-image {
 //  width: 46px;
@@ -42,15 +44,21 @@ header {
   position: static; // override theme css
 }
 
+header h1 {
+  text-shadow: none;
+}
+
 #banner {
-  background-color: $logo_red;
-  border: $logo_red_comp;
+  background-color: $logo_green;
+  border: $logo_grey;
   position: static; // override theme css
 }
 
 #banner .button {
-  background-color: $logo_yellow;
-  border: $logo_yellow;;
+  background-color: $logo_blue;
+  border: 0px;
+  box-shadow: none;
+  color: #F8F8F8;
 }
 
 //#banner #logo {
@@ -62,7 +70,7 @@ section {
 }
 
 footer {
-  background-color: #EAEAEA;
+  background-color: #94C5CC;
   padding-left: 10px;
   text-align: center;
   display: inherit;
@@ -92,10 +100,6 @@ img {
   height: auto;
 }
 
-section img {
-  max-width: 30%;
-}
-
 .clearfix::after {
   content: "";
   clear: both;
@@ -119,6 +123,7 @@ section img {
 .img-left {
   @media all and (min-width: 960px) {
     float: left;
+    width: 33%;
   }
 }
 
