@@ -5,7 +5,7 @@ permalink: /about/
 ---
 <div class="content-left" markdown="1">
 
-<h2> About the Site </h2>
+<h2>About the Site</h2>
 
 Romania is one of the world's largest wine producers and fifth largest among European wine-producing countries, after Italy, France, Spain, and Germany. In 2018 it produced around 5.2 million hectolitres of wine. In recent years, Romania has attracted many European business people and wine buyers, due to the affordable prices of both vineyards and wines compared to other wine-producing nations such as France, Germany, and Italy.
 

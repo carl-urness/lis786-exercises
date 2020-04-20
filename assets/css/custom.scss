@@ -21,6 +21,15 @@ $logo_red: #915D71;
 $logo_yellow: #D1BC38;
 $logo_red_comp: #612940;
 
+//.logo-image {
+//  width: 46px;
+//  height: 46px;
+//  border-radius: 50%;
+//  overflow: hidden;
+//  margin-top: -6px;
+// alignment: img-right;
+//}
+
 #page-header {
   position: fixed;
   top: 0;
@@ -55,18 +64,12 @@ section {
 footer {
   background-color: #EAEAEA;
   padding-left: 10px;
+  text-align: center;
+  display: inherit;
 }
 
 a {
   color: #3A463F;
-}
-
-p {
-  text-indent: 15px;
-}
-
-br {
-  text-indent: 15px;
 }
 
 .content-left {

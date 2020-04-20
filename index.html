@@ -1,11 +1,9 @@
 ---
-title:  Directory of Romanian Wine Grapes
+title:  Romanian Wine Grapes
 layout:  default
 ---
-<h2>List of Romanian Wine Grapes</h2>
-  <p>Wine grapes grown in Romania are of a high quality.
-  <br>Although these grapes are also grown in the surrounding countries of Hungary, Bulgaria and Moldova; the majority of the grapes are in Romania.
-  </p>
+<h2>Directory of Romanian Wine Grapes</h2>
+  <h5>Wine grapes grown in Romania are of a high quality.  Although these grapes are also grown in the surrounding countries of Hungary, Bulgaria and Moldova; the majority of the grapes are in Romania.  Look below for more information on the wine grapes of this wonderful region.</h5>
   <div class="card card-nav-tabs card-plain">
     <div class="card-header card-header-primay">
       <div class="nav-tabs-navigation">
@@ -32,7 +30,7 @@ layout:  default
                   <h2><a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page">{{ wine_grape.title }}</a></h2>
                   <p>{{ wine_grape.content | truncate: 300, ',,,'}}</p>
                   <h5><red>Wine Category: <em>{{ wine_grape.category }}</em></red></h5>
-                  <h6><a href="{{ wine_grape.source }}" target="_blank">Source</a></h6>
+                  <h5><a href="{{ wine_grape.source }}" target="_blank">For source content click here</a></h5>
                 </div>
               </div>
             </div>
@@ -43,7 +41,7 @@ layout:  default
           {% for wine_grape in sorted_grapes %}
             <div class="wine-teaser clearfix">
               <div class="img-left teaser-image">
-                <a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page"><img src="{{wine_grape.image | relative_url}}" alt="photo of {{ winge_grape.title }}" /></a>
+                <a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page"><img src="{{wine_grape.image | relative_url}}" alt="photo of {{ wine_grape.title }}" /></a>
                 <div class="teaser-content">
                   <h2><a href="{{ wine_grape.url | relative_url }}" alt="go to the detail page">{{ wine_grape.title }}</a></h2>
                   <p>{{ wine_grape.content | truncate: 300, ',,,'}}</p>
