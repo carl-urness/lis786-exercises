@@ -15,6 +15,7 @@ $logo_green: #88AB75;
 $logo_grey: #7D7C84;
 $logo_yellow: #DBD56E;
 $logo_orange: #DE8F6E;
+$logo_red: #835254;
 
 header {
   background: $logo_blue;
@@ -70,10 +71,12 @@ section {
 }
 
 footer {
-  background-color: #94C5CC;
+  background-color: #C7C3A7;
   padding-left: 10px;
   text-align: center;
   display: inherit;
+  border-top: double;
+  border-bottom: double;
 }
 
 a {
@@ -107,7 +110,7 @@ img {
 }
 
 .card .card-header {
-  background: linear-gradient(60deg,#687E71,#A1B4A9)
+  background: linear-gradient(60deg,$logo_red,$logo_orange,$logo_yellow)
 }
 
 .card-plain .card-body {
@@ -148,12 +151,12 @@ img {
     float: left;
     width: 66%;
     padding-left: 20px;
-    h2 {
-      margin-top: -8px; // just for alignment with the teaser image
+    h3 {
+      margin-top: -6px; // just for alignment with the teaser image
       margin-bottom: 0;
     }
     p {
-      margin: .5em 2em .5em 3em;
+      margin: .5em 2em .5em .2em;
     }
   }
 }
