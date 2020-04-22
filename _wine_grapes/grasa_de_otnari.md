@@ -1,7 +1,7 @@
 ---
 title: Grasă de Cotnari
 source: https://vincarta.com/blog/romanian-wine-facts/
-category: white
+category: White
 image: /assets/images/grasa.jpg
 layout: page
 location: Hargita, Romania

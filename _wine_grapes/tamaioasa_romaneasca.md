@@ -1,7 +1,7 @@
 ---
 title: Tămȃioasă Romȃnească
 source: https://vincarta.com/blog/romanian-wine-facts/
-category: white
+category: White
 image: /assets/images/tr.jpg
 layout: page
 location: Mahediniti, Romania

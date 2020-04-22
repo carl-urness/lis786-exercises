@@ -1,7 +1,7 @@
 ---
 title: Galbenă de Odobești
 source: https://vincarta.com/blog/romanian-wine-facts/
-category: white
+category: White
 image: /assets/images/galbena.jpg
 layout: page
 location: Bihor, Romania

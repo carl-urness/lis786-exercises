@@ -1,7 +1,7 @@
 ---
 title: Fetească Neagra
 source: https://vincarta.com/blog/romanian-wine-facts/
-category: red
+category: Red
 image: /assets/images/max-delsid-unsplash.jpg
 permalink: /feteasca_neagra/
 layout: page

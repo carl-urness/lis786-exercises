@@ -1,7 +1,7 @@
 ---
 title: Fetească Regală
 source: https://vincarta.com/blog/romanian-wine-facts/
-category: white
+category: White
 image: /assets/images/regala.jpg
 layout: page
 location: Maramures, Romania
