@@ -24,6 +24,10 @@ header {
 
 }
 
+//.layout-page img {
+//  width: 10%;
+//}
+
 //.logo-image {
 //  width: 46px;
 //  height: 46px;
@@ -85,7 +89,7 @@ a {
 
 .content-left {
   @media all and (min-width: 960px){
-    width: 70%;
+    width: 73%;
     float: left;
     padding-right: 20px;
   }
@@ -93,14 +97,10 @@ a {
 
 .img-right {
   @media all and (min-width: 960px) {
-    width: 30%;
+    width: 33%;
     float: right;
+    vertical-align: top;
   }
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .clearfix::after {
@@ -130,10 +130,20 @@ img {
   }
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+//.page-pic {
+//  @media all and (min-width: 960px) {
+//    float: right;
+//    width: 33%
+//  }
+//}
+
+//.page-map {
+//  @media all and (min-width: 960px) {
+//    float: right;
+//    width: 33%
+//    vertical-align: text-top;
+//  }
+//}
 
 .wine-teaser {
   margin-bottom: 2.8em;
@@ -160,3 +170,38 @@ img {
     }
   }
 }
+
+//.page-wrapper{
+//  margin-bottom: 2.8em;
+//  .page-pic {
+//    @media all and (min-width: 960px) {
+//      img {
+//        width: 100%;
+//        height: 250px;
+//        object-fit: cover;
+//        object-position: center center;
+//      }
+//    }
+//  .page-map {
+//    @media all and (min-width: 960px) {
+//      img {
+//        width: 100%;
+//        height: 250px;
+//        object-fit: cover;
+//        object-position: center center;
+//      }
+//    }
+//  }
+//  .page-content {
+//    float: left;
+//    width: 66%;
+//    padding-left: 20px;
+//    h3 {
+//      margin-top: -6px; // just for alignment with the teaser image
+//      margin-bottom: 0;
+//    }
+//    p {
+//      margin: .5em 2em .5em .2em;
+//    }
+//  }
+//}

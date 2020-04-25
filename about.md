@@ -31,9 +31,21 @@ Also, the main grape varieties for red wines are
 - Fetească Neagră,
 - Pinot Noir.
 
+This site focuses on grapes predominately found in Romanian
+- Băbească Neagră,
+- Fetească Neagră,
+- Tămâioasă Românească,
+- Grasă de Cotnari,
+- Galbenă de Odobești,
+- Fetească Albă,
+- Fetească Regală.
+
 Source:  [Wikipedia](https://en.wikipedia.org/wiki/Romanian_wine)
 </div>
 <div class="img-right" markdown="1">
 ![image of grapes]({{"/assets/images/roberta-sorge.jpg" | relative_url }})
+</div>
+<div class="img-right" markdown="1">
+![image of wine_glass]({{"/assets/images/terry.jpg" | relative_url }})
 </div>
 <div class="clearfix"></div>
