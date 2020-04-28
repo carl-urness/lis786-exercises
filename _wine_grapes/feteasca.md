@@ -3,7 +3,7 @@ title: Fetească Albă
 source: https://vincarta.com/blog/romanian-wine-facts/
 category: White
 image: /assets/images/fa.jpg
-layout: page
+layout: wine_grape
 location: Prahova, Romania
 
 ---

@@ -3,7 +3,7 @@ title: Grasă de Cotnari
 source: https://vincarta.com/blog/romanian-wine-facts/
 category: White
 image: /assets/images/grasa.jpg
-layout: page
+layout: wine_grape
 location: Hargita, Romania
 ---
 Koverszolo (Grasa de Cotnari) is a little-known Eastern European variety, whose most prestigious role is in the sweet, botrytized Tokaji wines of Tokaj, eastern Hungary. It is also found in Romania, where it goes by the name Grasa de Cotnari.

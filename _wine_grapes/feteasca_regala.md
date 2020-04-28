@@ -3,7 +3,7 @@ title: Fetească Regală
 source: https://vincarta.com/blog/romanian-wine-facts/
 category: White
 image: /assets/images/regala.jpg
-layout: page
+layout: wine_grape
 location: Maramures, Romania
 ---
 The most planted Fetească, the source of fresh, aromatic whites in Romania.

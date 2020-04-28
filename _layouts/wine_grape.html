@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<h4 class="page-title">{{ page.title }}</h4>
+<div class="page-wrapper clearfix">
+  <div class="content">
+    {{ content }}
+  </div>
+  <aside class="sidebar">
+    <div id="page-pic">
+      <img src="{{page.image | relative_url}}" alt="photo of {{ page.title }}" />
+    </div>
+    <div id="page-map">
+      <img src="https://maps.googleapis.com/maps/api/staticmap?center={{ page.location | url_encode }}
+            &zoom=5
+            &size=600x300
+            &maptype=hybrid
+            &markers={{ page.location | url_encode }}
+            &key=AIzaSyCi-yz2py5r6VlVoFjnenizfSv_1iPU3JE"/>
+    </div>
+  </aside>
+</div>

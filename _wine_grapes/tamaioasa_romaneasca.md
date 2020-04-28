@@ -3,7 +3,7 @@ title: Tămȃioasă Romȃnească
 source: https://vincarta.com/blog/romanian-wine-facts/
 category: White
 image: /assets/images/tr.jpg
-layout: page
+layout: wine_grape
 location: Mahediniti, Romania
 ---
 Tămȃioasă Romȃnească is a an indigenous Romanian clone of Muscat Blanc à Petit Grains.we tend to say ‘Romanian Muscat’ as it is easier for people to pronounce. It is a very old white grape variety, present all over Europe under different names. It might have originated from Italy or most probably Greece.

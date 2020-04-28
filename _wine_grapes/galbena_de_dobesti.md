@@ -3,7 +3,7 @@ title: Galbenă de Odobești
 source: https://vincarta.com/blog/romanian-wine-facts/
 category: White
 image: /assets/images/galbena.jpg
-layout: page
+layout: wine_grape
 location: Bihor, Romania
 ---
 A gradually declining Romanian variety, which produces everyday whites.
