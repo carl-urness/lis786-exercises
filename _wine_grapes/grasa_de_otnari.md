@@ -17,4 +17,5 @@ With the general decline in demand for sweet wines after the Second World War an
 
 The wine is made primarily from a grape variety also called Grasă de Cotnari or Grasă (an old white grape cultivated in the Furmint group), although some additional Fetească Alba is allowed. It is produced from grapes that fully reached and exceeded their maturity, hence the high residual sugar content.
 
+<h5 id="h5text">Viticultural Characteristics</h5>
 A carefully made Grasă de Cotnari is a golden yellow wine, and in spite of its residual sweetness should retain a fine acid structure and 11,5-14% alcohol by volume. It ages well, its color darkens from pale yellow to reach a dark yellow with an orange note in it. A good Grasă de Cotnari should have a distinct bouquet of apricot, walnut and almond and should be drunk chilled at about 10-12 degrees Celsius.

@@ -11,17 +11,17 @@ Delicious dry red wines which are full-bodied and with medium tannins. They beco
 
 The red-wine Fetească is a resurgent Moldovan variety, producing good-quality wine mainly in Romania.
 
-<h5>Origins and Parentage</h5>
+<h5 id="h5text">Origins and Parentage</h5>
 
 Fetească Neagră, literally ‘black young girl’, is an old variety thought to have originated in the historical region of Moldova (including today’s Republic of Moldova and Romania’s eastern Moldova region), where it has been traditionally cultivated. It then spread  west to Transylvania and Hungary. Fetească Neagră is not a color mutation of Fetească Albă, as evidenced by DNA profiling. Fetească Neagră shows significant biodiversity, with at least four distinct types, suggesting it is relatively old.
 
 Like Fetească Albă, Fetească Neagră has often been said to have been domesticated from local wild grapevines by the Dacians but there is no evidence so far.
 
-<h5>Viticultural Characteristics</h5>
+<h5 id="h5text">Viticultural Characteristics</h5>
 
 Very vigorous, mid budding and mid to late ripening. Compact bunches of thick-skinned berries. Resistant to drought, cold winter temperatures (to -22 °C/-8 °F) and botrytis bunch rot but susceptible to powdery mildew.
 
-<h5>Where it grows and what the wine tastes like</h5>
+<h5 id="h5text">Where the wine grows and how the wine tastes</h5>
 
 Fetească Neagră is indigenous to what is now the Republic of Moldova. However, it was not planted during the Soviet era and has more or less disappeared. Nevertheless, producers such as Cricova, Equinox, Et Cetera, Purcari and Chateau Vartely began replanting the variety in the late 2000s.
 

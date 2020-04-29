@@ -17,6 +17,52 @@ $logo_yellow: #DBD56E;
 $logo_orange: #DE8F6E;
 $logo_red: #835254;
 
+@import url('https://fonts.googleapis.com/css?family=Amethysta:400|Poppins:400');
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #333;
+}
+
+p {margin-bottom: 1.15rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: 'Amethysta', serif;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5.653em;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052em;
+}
+
+h2 {font-size: 2.441em;}
+
+h3 {font-size: 1.953em;}
+
+h4 {font-size: 1.563em;}
+
+h5 {font-size: 1.25em;}
+
+small, .text_small {font-size: 0.8em;}
+
+h5 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
 header {
   background: $logo_blue;
   background-size: cover;
@@ -24,6 +70,23 @@ header {
 
 }
 
+hr {
+  margin: 16px 0px 16px 0px;
+  border: 2px solid $logo_blue;
+
+}
+
+#h5text {
+  margin-bottom: 15px;
+}
+#hrpage {
+  margin: 16px 0px 16px 0px;
+  border: 2px solid $logo_green;
+}
+
+#source {
+  color: $logo_grey;
+}
 //.layout-page img {
 //  width: 10%;
 //}
@@ -77,11 +140,15 @@ section {
 
 footer {
   background-color: #C7C3A7;
-  padding-left: 10px;
   text-align: center;
   display: inherit;
   border-top: double;
   border-bottom: double;
+  padding: 5px 0px 5px 10px;
+    p {
+      margin-bottom: 3px;
+    }
+
 }
 
 a {
@@ -132,8 +199,9 @@ a {
 }
 
 .page-title {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .sidebar {
@@ -160,25 +228,30 @@ a {
 //}
 
 #page-pic {
-  border: 2px double $logo_grey;
+//  border: 2px double $logo_grey;
 //  border-radius: 25px 25px 0px 0px;
- border-bottom: 0px;
-  border-left: 0px;
-  border-right: 0px;
+//  border-bottom: 0px;
+//  border-left: 0px;
+//  border-right: 0px;
   text-align: center;
 }
 
+.pic-title {
+  margin-top: 1px;
+}
 #page-map {
-  border: 2px double $logo_grey;
-  border-top: 0px;
+//  border: 7px double $logo_blue;
   border-left: 0px;
   border-right: 0px;
-  text-align: center;
+  text-align: left;
+//  margin-top: 10px;
 }
 
 .map-title {
-    text-align: left;
     padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 16.8px;
+//    border: 7px 0px 7px 0px double $logo_blue;
 }
 
 .wine-teaser {
@@ -197,8 +270,9 @@ a {
     float: left;
     width: 66%;
     padding-left: 20px;
+    margin: -45px 0px;
     h5 {
-      color: $logo_grey;
+      color: $logo_red;
     }
     p {
       margin: .5em 2em .5em .2em;

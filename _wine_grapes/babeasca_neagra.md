@@ -18,5 +18,5 @@ While Băbească neagră has many different clonal mutations, like Pinot noir an
 
 Most of the plantings of Băbească neagră are found in Romania where, in 2008, there were 4,516 hectares (11,160 acres) in cultivation. Most of these plantings are in Galați County, particularly around the communes of Nicorești. Significant plantings can also be found around Odobești in Vrancea County and in the sandy vineyard soils along the Danube river which forms Romania's southern border with Serbia and Bulgaria.
 
-<h5>Regions</h5>
+<h5 id="h5text">Regions</h5>
 Outside of Romania, the grape can be found in Moldova, Ukraine and the United States. Băbească neagră can be found on limited acreages in the Finger Lakes region of New York State, where this variety was originally successfully cultivated by Konstantin Frank. Called Sereksiya Charni here (the Russian name), it is used by McGregor Vineyard to create an aromatic, fruity red wine (called "Black Russian"), blended with Saperavi.
