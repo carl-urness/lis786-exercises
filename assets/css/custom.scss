@@ -197,9 +197,8 @@ a {
     float: left;
     width: 66%;
     padding-left: 20px;
-    h3 {
-      margin-top: -6px; // just for alignment with the teaser image
-      margin-bottom: 0;
+    h5 {
+      color: $logo_grey;
     }
     p {
       margin: .5em 2em .5em .2em;
