@@ -72,6 +72,7 @@ header h1 {
 
 section {
   width: auto;
+  padding: 0px 30px 50px 30px;
 }
 
 footer {
@@ -130,19 +131,54 @@ a {
   }
 }
 
+.page-title {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
 .sidebar {
   @media all and (min-width: 960px) {
     float: left;
-    width: 45%;
-    padding-left: 50px;
+    width: 50%;
+    padding-left: 25px;
   }
 }
 
 .content {
   @media all and (min-width: 960px) {
     float: left;
-    width: 55%;
+    width: 50%;
+    padding-right: 25px;
   }
+}
+
+//.boxed {
+//  border: 2px solid $logo_grey;
+//  border-radius: 10px;
+//  padding-bottom: 10px;
+//  padding-top: 10px;
+//}
+
+#page-pic {
+  border: 2px double $logo_grey;
+//  border-radius: 25px 25px 0px 0px;
+ border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+}
+
+#page-map {
+  border: 2px double $logo_grey;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  text-align: center;
+}
+
+.map-title {
+    text-align: left;
+    padding-top: 10px;
 }
 
 .wine-teaser {
@@ -170,38 +206,3 @@ a {
     }
   }
 }
-
-//.page-wrapper{
-//  margin-bottom: 2.8em;
-//  .page-pic {
-//    @media all and (min-width: 960px) {
-//      img {
-//        width: 100%;
-//        height: 250px;
-//        object-fit: cover;
-//        object-position: center center;
-//      }
-//    }
-//  .page-map {
-//    @media all and (min-width: 960px) {
-//      img {
-//        width: 100%;
-//        height: 250px;
-//        object-fit: cover;
-//        object-position: center center;
-//      }
-//    }
-//  }
-//  .page-content {
-//    float: left;
-//    width: 66%;
-//    padding-left: 20px;
-//    h3 {
-//      margin-top: -6px; // just for alignment with the teaser image
-//      margin-bottom: 0;
-//    }
-//    p {
-//      margin: .5em 2em .5em .2em;
-//    }
-//  }
-//}

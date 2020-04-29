@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-<h4 class="page-title">{{ page.title }}</h4>
+<h3 class="page-title">{{ page.title }}</h3>
 <div class="page-wrapper clearfix">
   <div class="content">
     {{ content }}
   </div>
   <aside class="sidebar">
-    <div id="page-pic">
+    <div id="page-image">
       <img src="{{page.image | relative_url}}" alt="photo of {{ page.title }}" />
+      <caption>All images for this site were obtained from Unsplash. Including this wonderful photo of wine pouring into a glass.</caption>
     </div>
   </aside>
 </div>
